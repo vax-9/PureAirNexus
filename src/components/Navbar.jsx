@@ -1,6 +1,6 @@
 import { BsClockHistory, BsFillPinMapFill } from "react-icons/bs";
 import { BiWorld, BiHomeAlt2 } from "react-icons/bi";
-import { useLocation, useNavigate, useParams } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 function Navbar() {

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { DayPicker } from "react-day-picker";
 import { HiChevronRight, HiChevronLeft } from "react-icons/hi";
 
@@ -18,7 +19,7 @@ function DayPickerContent(props) {
         caption_dropdowns: "flex justify-center text-center gap-3",
         dropdown: "p-1 rounded border",
         caption:
-          " flex justify-center py-2 mb-4 relative items-center text-gray-900",
+          " flex justify-center py-2 mb-3 relative items-center text-gray-900",
         caption_label: "hidden text-sm font-medium text-gray-900",
         nav: "flex items-center",
         nav_button:
@@ -27,10 +28,10 @@ function DayPickerContent(props) {
         nav_button_next: "absolute right-1.5",
         table: "w-full border-collapse",
         head_row: "flex font-medium text-gray-900",
-        head_cell: "m-0.5 w-9 font-normal text-sm",
+        head_cell: "m-0.5 w-8 font-normal text-sm",
         row: "flex w-full mt-2",
-        cell: "text-gray-600 rounded-md h-9 w-9 text-center text-sm p-0 m-0.5 relative [&:has([aria-selected].day-range-end)]:rounded-r-md [&:has([aria-selected].day-outside)]:bg-gray-900/20 [&:has([aria-selected].day-outside)]:text-white [&:has([aria-selected])]:bg-gray-900/50 first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md focus-within:relative focus-within:z-20",
-        day: "h-9 w-9 p-0 font-normal",
+        cell: "text-gray-600 rounded-md h-7 w-8 text-center text-sm p-0 m-0.5 relative [&:has([aria-selected].day-range-end)]:rounded-r-md [&:has([aria-selected].day-outside)]:bg-gray-900/20 [&:has([aria-selected].day-outside)]:text-white [&:has([aria-selected])]:bg-gray-900/50 first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md focus-within:relative focus-within:z-20",
+        day: "h-8 w-8 p-0 font-normal",
         day_range_end: "day-range-end",
         day_selected:
           "rounded-md bg-gray-900 text-white hover:bg-gray-900 hover:text-white focus:bg-gray-900 focus:text-white",
