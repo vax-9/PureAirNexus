@@ -152,7 +152,7 @@ function Map() {
           the map is accessable only on computer
         </span>
       </p>
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <DisplayMap
           setCountry={setCountry}
           countryCodeTranscriber={countryCodeTranscriber}
