@@ -220,6 +220,7 @@ function Date() {
           "no data found"
         ) : null}
       </div>
+      <div className="h-32 md:hidden"></div>
     </>
   );
 }
