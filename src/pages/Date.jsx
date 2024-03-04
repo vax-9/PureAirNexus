@@ -144,7 +144,7 @@ function Date() {
 
   return (
     <>
-      <p className="p-10 py-16 text-center">
+      <p className="p-10 py-12 pt-10 text-center">
         Search for global carbon monoxide emissions within a specified time
         range. The measurement starts in 2019.
       </p>
@@ -160,7 +160,7 @@ function Date() {
             <Option value="day">Day</Option>
           </Select>
         </div>
-        <div className="mt-16">
+        <div className="mt-14">
           <Popover placement="bottom">
             <PopoverHandler>
               <Input
@@ -175,7 +175,7 @@ function Date() {
             </PopoverContent>
           </Popover>
         </div>
-        <div className=" mt-16">
+        <div className=" mt-14">
           <Popover placement="bottom">
             <PopoverHandler>
               <Input
@@ -190,11 +190,11 @@ function Date() {
             </PopoverContent>
           </Popover>
           {isFetching ? (
-            <Button loading={true} type="submit" className="mt-20">
+            <Button loading={true} type="submit" className="mt-16">
               Loading
             </Button>
           ) : (
-            <Button type="submit" className="mt-20">
+            <Button type="submit" className="mt-14">
               Submit
             </Button>
           )}
